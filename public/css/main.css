@@ -15,10 +15,13 @@
 body {
 	background-color:rgb(154,216,218);
     padding: 100px;
-    
     color: black;
 }
 
+input{
+	position: relative;
+	left: 40%;
+}
 .alert > p{
 	color: black;
 }
