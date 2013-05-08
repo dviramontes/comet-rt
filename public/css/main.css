@@ -1,0 +1,30 @@
+
+
+/* ===============
+   main.css styles
+   =============== */
+
+*{
+	-webkit-transition: 1.0 ease;
+	-moz-transition: 1.0 ease;
+	-ms-transition: 1.0 ease;
+	-o-transition: 1.0 ease;
+	transition: 1.0 ease;	
+}
+
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
