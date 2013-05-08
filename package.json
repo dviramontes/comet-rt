@@ -1,0 +1,17 @@
+{
+  "name": "comet-rt",
+  "version": "0.0.1",
+  "description": "-=-  C O M E T -=-",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dviramontes/comet-rt.git"
+  },
+  "author": "dviramontes",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "a1370183cfc54075e8494bbf3790643e1c531466"
+}
