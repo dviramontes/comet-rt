@@ -9,29 +9,37 @@
   transition: 1.0 ease;
 }
 body {
-  background-color: #9ad8da;
+  background-image: url("../img/background-image.jpg");
+  background-size: cover;
+  background-size: 100%;
+  /* 	background-color: @teal; */
+
   font-family: times;
   margin-top: 50px;
   font-family: monospace;
 }
 .alert {
-  border: groove 1em red;
-  border-radius: 2em;
+  background-color: rgba(154, 216, 218, 0.3);
+  border: groove 1em rgba(255, 0, 0, 0.43);
+  border-radius: 5em;
 }
 input {
-  max-width: 150px;
   position: relative;
 }
 #messagesDiv {
-  max-width: 150px;
+  background-color: rgba(154, 216, 218, 0.3);
+  width: 250px;
+  color: brown;
 }
 #intro {
-  color: gray;
+  color: white;
   padding: 100px;
   text-align: center;
   font-size: 44px;
-  border-radius: 1px 50px 40px 10px;
+  width: 250px;
 }
-#intro > p:nth-child(2) {
+#intro > p:nth-child(3),
+p:nth-child(4),
+.description {
   font-size: 12px;
 }

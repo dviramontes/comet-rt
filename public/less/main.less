@@ -15,7 +15,10 @@
 }
 
 body{
-	background-color: @teal;
+	background-image: url("../img/background-image.jpg");
+	background-size: cover;
+	background-size: 100%;
+/* 	background-color: @teal; */
 	font-family: times;
 	margin-top: 50px;
 	font-family: monospace;
@@ -24,30 +27,33 @@ body{
 }
 
 .alert{
-	border: groove 1em red;  
-	border-radius: 2em;
+	background-color: @teal;
+	border: groove 1em @red;  
+	border-radius: 5em;
 }
 
 input{
-	width: @max-width;
 	position: relative;
 }
 
 #messagesDiv{
-	max-width: @max-width;
+	background-color: @teal;
+	width: @max-width;
+	color: brown;
 }
 
 
 #intro{
-	color: gray;
+	// color: @gray;
+	color:white;
 	padding: 100px;
 	text-align: center;
 	font-size: 44px;
-	border-radius: 1px 50px 40px 10px;
+	// border-radius: 1px 50px 40px 10px;
 	width: @max-width ;
 }
 
-#intro > p:nth-child(2){
+#intro > p:nth-child(3), p:nth-child(4) , .description{
 	font-size: 12px;
 }
 
