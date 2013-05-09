@@ -1,11 +1,10 @@
-
-// Core variables and mixins
-@import "variables.less";
-
-
 /* ===============
    main.css styles
    =============== */
+
+// Core variables and mixins
+
+@import "variables.less";
 
 *{
 	-webkit-transition: 1.0 ease;
@@ -15,30 +14,42 @@
 	transition: 1.0 ease;	
 }
 
-body {
-	background-color:rgb(154,216,218);
-	padding: 100px;
-	color: black;
+body{
+	background-color: @teal;
+	font-family: times;
+	margin-top: 50px;
+	font-family: monospace;
+
+	
+}
+
+.alert{
+	border: groove 1em red;  
+	border-radius: 2em;
 }
 
 input{
-	max-width: @max-width;
+	width: @max-width;
 	position: relative;
-	margin-top: 35px;
-	/*margin: 0 10% 0 10%;*/
-	/*padding: 50px 0 0 0;*/
-	/*left: 40%;*/
-}
-.alert > p{
-	color: black;
 }
 
-#input-box{
-	max-width: 350px;
+#messagesDiv{
+	max-width: @max-width;
 }
 
 
+#intro{
+	color: gray;
+	padding: 100px;
+	text-align: center;
+	font-size: 44px;
+	border-radius: 1px 50px 40px 10px;
+	width: @max-width ;
+}
 
+#intro > p:nth-child(2){
+	font-size: 12px;
+}
 
 
 

@@ -10,23 +10,28 @@
 }
 body {
   background-color: #9ad8da;
-  padding: 100px;
-  color: black;
+  font-family: times;
+  margin-top: 50px;
+  font-family: monospace;
+}
+.alert {
+  border: groove 1em red;
+  border-radius: 2em;
 }
 input {
   max-width: 150px;
   position: relative;
-  margin-top: 35px;
-  /*margin: 0 10% 0 10%;*/
-
-  /*padding: 50px 0 0 0;*/
-
-  /*left: 40%;*/
-
 }
-.alert > p {
-  color: black;
+#messagesDiv {
+  max-width: 150px;
 }
-#input-box {
-  max-width: 350px;
+#intro {
+  color: gray;
+  padding: 100px;
+  text-align: center;
+  font-size: 44px;
+  border-radius: 1px 50px 40px 10px;
+}
+#intro > p:nth-child(2) {
+  font-size: 12px;
 }
