@@ -1,6 +1,8 @@
-/* ===============
-   main.css styles
-   =============== */
+/* 
+   main.less
+   ---------
+   
+*/
 * {
   -webkit-transition: 1.0 ease;
   -moz-transition: 1.0 ease;
@@ -18,7 +20,7 @@ body {
   margin-top: 50px;
   font-family: monospace;
 }
-.alert {
+.img-rounded {
   background-color: rgba(154, 216, 218, 0.3);
   border: groove 1em rgba(255, 0, 0, 0.43);
   border-radius: 5em;
@@ -37,6 +39,7 @@ input {
   text-align: center;
   font-size: 44px;
   width: 250px;
+  word-break: ;
 }
 #intro > p:nth-child(3),
 p:nth-child(4),
